@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboards Gerencia Comercial - EPS Grau</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>body{font-family:Inter,sans-serif}</style>
+</head>
+<body class="bg-[#f5f7fb] min-h-screen">
+<header class="bg-white border-b">
+<div class="max-w-[1400px] mx-auto px-8 py-6 flex justify-between items-center">
+<div class="flex items-center gap-4">
+<div class="w-12 h-12 rounded-xl bg-[#0a4da1] flex items-center justify-center text-white font-bold text-xl">EG</div>
+<div>
+<h1 class="text-[22px] font-extrabold text-[#0a4da1] tracking-tight">Dashboards Gerencia Comercial</h1>
+<p class="text-[13px] text-gray-500 font-medium">EPS Grau S.A. · Piura · Plataforma de Gestión Comercial</p>
+</div>
+</div>
+<div class="text-right">
+<div class="text-[11px] text-gray-400 uppercase tracking-widest">Actualizado</div>
+<div class="text-[13px] font-semibold">07 Septiembre 2026</div>
+</div>
+</div>
+</header>
+
+<main class="max-w-[1400px] mx-auto px-8 py-10">
+<div class="mb-8">
+<h2 class="text-[18px] font-bold text-gray-900">Panel de Control</h2>
+<p class="text-[13px] text-gray-500 mt-1">Selecciona un dashboard para analizar. Sistema modular, se irán agregando nuevos reportes.</p>
+</div>
+
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+<!-- CARD 1 - ACTIVO -->
+<a href="altos-consumidores.html" class="group bg-white rounded-[20px] border-2 border-[#0a4da1] shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all p-6 block relative overflow-hidden">
+<div class="absolute top-0 right-0 w-32 h-32 bg-blue-50 rounded-full -mr-16 -mt-16 group-hover:bg-blue-100 transition"></div>
+<div class="relative">
+<div class="flex justify-between items-start mb-4">
+<div class="w-12 h-12 rounded-xl bg-[#0a4da1] flex items-center justify-center text-white">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>
+</div>
+<span class="text-[10px] font-bold px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">ACTIVO</span>
+</div>
+<h3 class="font-bold text-[16px] text-gray-900">Altos Consumidores</h3>
+<p class="text-[12px] text-gray-500 mt-1 leading-relaxed">Análisis de 256 suministros de alto consumo. Piura 2025-2026. Consulta individual, evolución mensual, volumen vs importe.</p>
+<div class="mt-4 flex gap-2 text-[11px]">
+<span class="px-2.5 py-1 bg-[#f5f7fb] rounded-full border text-gray-600">256 suministros</span>
+<span class="px-2.5 py-1 bg-[#f5f7fb] rounded-full border text-gray-600">3,668 consumos</span>
+</div>
+<div class="mt-5 flex items-center text-[13px] font-semibold text-[#0a4da1]">Abrir dashboard <span class="ml-2 group-hover:translate-x-1 transition">→</span></div>
+</div>
+</a>
+
+<!-- CARD 2 - PRÓXIMAMENTE -->
+<div class="bg-white rounded-[20px] border border-dashed border-gray-300 p-6 opacity-60">
+<div class="w-12 h-12 rounded-xl bg-gray-100 flex items-center justify-center text-gray-400 mb-4">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+</div>
+<h3 class="font-bold text-[16px] text-gray-700">Grandes Clientes - Morosidad</h3>
+<p class="text-[12px] text-gray-400 mt-1">Próximamente. Análisis de deuda y recaudación.</p>
+<div class="mt-4"><span class="text-[10px] font-bold px-3 py-1 rounded-full bg-gray-100 text-gray-500">PRÓXIMAMENTE</span></div>
+</div>
+
+<!-- CARD 3 - PRÓXIMAMENTE -->
+<div class="bg-white rounded-[20px] border border-dashed border-gray-300 p-6 opacity-60">
+<div class="w-12 h-12 rounded-xl bg-gray-100 flex items-center justify-center text-gray-400 mb-4">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+</div>
+<h3 class="font-bold text-[16px] text-gray-700">Control de Fugas Comerciales</h3>
+<p class="text-[12px] text-gray-400 mt-1">Próximamente. Detección de consumos atípicos.</p>
+<div class="mt-4"><span class="text-[10px] font-bold px-3 py-1 rounded-full bg-gray-100 text-gray-500">PRÓXIMAMENTE</span></div>
+</div>
+
+</div>
+<!--
+<div class="mt-12 bg-white rounded-[20px] border p-6">
+<h3 class="font-semibold text-sm">¿Cómo publicar en GitHub Pages?</h3>
+<ol class="text-xs text-gray-600 mt-3 list-decimal ml-4 space-y-1">
+<li>Crea repo <code>dashboards-gerencia-epsgrau</code> en GitHub</li>
+<li>Sube <code>index.html</code> y <code>altos-consumidores.html</code> a la raíz</li>
+<li>Settings > Pages > Branch: main / root > Save</li>
+<li>Tu portal estará en <code>https://TU_USUARIO.github.io/dashboards-gerencia-epsgrau/</code></li>
+</ol>
+</div>
+-->
+</main>
+
+<footer class="max-w-[1400px] mx-auto px-8 py-8 text-center text-[11px] text-gray-400 border-t mt-8">
+Gerencia Comercial · EPS Grau S.A. · Dashboard interno · Datos confidenciales
+</footer>
+</body>
+</html>
